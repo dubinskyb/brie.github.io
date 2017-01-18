@@ -1,0 +1,116 @@
+html {
+	font-size: 14px; /* px means 'pixels': the base font size is now 10 pixels high */
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Special Elite', sans-serif;
+	color: #0C374D;
+}
+
+h2, h3, h4, h5, h6 {
+	font-family: 'Special Elite', sans-serif;
+	margin-left: 2%;
+	margin-right: 2%;
+	width:auto;
+	color: #0C374D;
+		display: block;
+}
+h2 {
+	font-size: 40px;
+}
+h3 {
+	font-size: 30px;
+}
+
+p, li {
+	font-size: 20px;
+	line-height: 2;
+	letter-spacing: 1px;
+	margin-left: 2%;
+	margin-right: auto;
+	width:auto;
+	color : #107896;
+}
+
+/* unvisited link */
+a:link {
+    color: #1496BB;
+}
+
+/* visited link */
+a:visited {
+    color: #1287A8;
+}
+
+/* mouse over link */
+a:hover {
+    color: #43ABC9;
+}
+
+/* selected link */
+a:active {
+    color: #1496BB;
+}
+
+* {
+	box-sizing: border-box;
+}
+.main {
+    width: 90%;
+    float: center;
+}
+
+.header {
+	background-color: #F26D21;
+	padding: 40px;
+}
+.footer {
+	background-color: #F26D21;
+	padding: 40px;
+}
+
+html {
+	background-color: #43ABC9;
+	}
+
+body {
+  margin: 3%;
+  background-color: #F2F3F4; /* bg color is Lila */
+}
+div {
+	border-color: #c02f1d;
+	border: 30px;
+	box-sizing: border-box;
+}
+
+p {
+	margin: 1em;
+}
+p.punch {
+	background: white;
+	margin: 1em -1px 1em 25%;
+  border: 1px solid;
+	border-right: none;
+	text-align: center;
+}
+p.mond {
+	background: #333;
+	color: white;
+	margin: 1em 2em -2em -2em;
+}
+
+p.special {
+	margin: 1em;
+	padding: 20;
+	background: white;
+}
+
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 5px;
+}
